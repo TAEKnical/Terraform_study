@@ -20,14 +20,21 @@
 - (옵션) 시크릿을 다양한 시크릿 저장소를 활용해 사용해보세요.
 
 최초 apply시 환경변수로 값을 읽어들임
+
 ![](https://i.imgur.com/BQ897oh.png)
 
 secret manager 생성 확인
+
 ![](https://i.imgur.com/TlsP5DO.png)
+
 db_username 의 Plaintext 확인
+
 ![](https://i.imgur.com/wnjf68x.png)
+
 db_password의 Plaintext 확인
+
 ![](https://i.imgur.com/2YU1OO4.png)
 
 secretmanager의 .tfstate 출력
+
 ![](https://i.imgur.com/rZBzKUe.png)
