@@ -7,8 +7,8 @@ data "aws_ami" "ubuntu" {
   }
 
   filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
+  name   = "virtualization-type"
+  values = ["hvm"]
   }
 
   filter {
@@ -18,3 +18,5 @@ data "aws_ami" "ubuntu" {
 
   owners = ["099720109477"] # amazon
 }
+
+
